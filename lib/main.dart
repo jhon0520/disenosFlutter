@@ -1,4 +1,5 @@
 import 'package:diseno/src/page/basico_page.dart';
+import 'package:diseno/src/page/botones_page.dart';
 import 'package:diseno/src/page/scroll_page.dart';
 import 'package:flutter/material.dart';
 
@@ -13,10 +14,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Diseños',
       
-      initialRoute: 'scroll',
+      initialRoute: 'botones',
       routes: {
         'basico' : (BuildContext context) => BasicoPage(),
         'scroll' : (BuildContext context) => ScrollPage(),
+        'botones': (BuildContext context) => BotonesPage(),
 
       },
     );

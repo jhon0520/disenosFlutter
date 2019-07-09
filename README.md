@@ -6,6 +6,11 @@ flutter packages get
 
 ## Notas:
 
+**expanded :**
+
+Es un widget que se utiliza para expandir un elemento secundario de una fila o columna.
+Expanded(child: Container())
+
 **mainAxisAlignment :**
 
 Se utiliza en los Row para alineación horizontal.
@@ -40,3 +45,8 @@ Container(
        fit: BoxFit.cover,
      ),
    );
+
+**SafeArea :**
+
+Se utiliza para que el contenido de la pagina quede fuera de los notch.
+
